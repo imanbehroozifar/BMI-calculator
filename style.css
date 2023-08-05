@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+  background: rgb(10, 172, 42);
+  background: linear-gradient(
+    148deg,
+    rgb(4, 241, 51) 5%,
+    rgb(1, 158, 17) 68%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-BMI{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    border-radius:2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 6px 12px 28px 3px rgba(0, 0, 0, 0.1);
+}
+.box-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px 10px;
+}
+input[type="range"]{
+    width: 70%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.box-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avrage{
+    color: #61d954;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
